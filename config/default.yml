@@ -95,7 +95,7 @@ products:
       - { text: 'One of my favorites!', author: admin }
   -
     name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
+    description: 'Made from real oranges hand-picked by Uncle Dittmeyer.'
     price: 2.99
     deluxePrice: 2.49
     image: orange_juice.jpg

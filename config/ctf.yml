@@ -1,4 +1,5 @@
 application:
+  name: 'SENOPAG Juice Shop'
   logo: JuiceShopCTF_Logo.png
   favicon: favicon_ctf.ico
   showVersionNumber: false

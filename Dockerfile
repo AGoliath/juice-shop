@@ -31,4 +31,5 @@ RUN mkdir logs && \
     chmod -R g=u ftp/ frontend/dist/ logs/ data/ i18n/
 USER 1001
 EXPOSE 3000
+ENV NODE_ENV=ctf
 CMD ["NODE_ENV=ctf","npm", "start"]
