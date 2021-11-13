@@ -3,27 +3,12 @@ server:
   basePath: ''
 application:
   domain: juice-sh.op
-<<<<<<< HEAD
-  name: 'Senacor Juice Shop'
-  logo: JuiceShopCTF_Logo.png
-  favicon: favicon_ctf.ico
-  numberOfRandomFakeUsers: 0
-  showChallengeSolvedNotifications: true
-  showChallengeHints: false
-  showVersionNumber: false
-  theme: spacelab # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
-  gitHubRibbon: none # Options: darkblue  gray  green  orange  red  white  none
-  twitterUrl: 'https://twitter.com/senacor'
-  facebookUrl: 'https://www.facebook.com/Senacor'
-  planetOverlayMap: orangemap2k.jpg
-  planetName: Saftopia
-=======
   name: 'OWASP Juice Shop'
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
-  showVersionNumber: true
-  showGitHubLinks: true
+  showVersionNumber: false
+  showGitHubLinks: false
   localBackupEnabled: true
   numberOfRandomFakeUsers: 0
   altcoinName: Juicycoin
@@ -36,18 +21,17 @@ application:
     defaultResponse: "Sorry I couldn't understand what you were trying to say"
     avatar: 'JuicyChatBot.png'
   social:
-    twitterUrl: 'https://twitter.com/owasp_juiceshop'
-    facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
-    slackUrl: 'https://owasp.org/slack/invite'
-    redditUrl: 'https://www.reddit.com/r/owasp_juiceshop'
-    pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
+    twitterUrl: 'https://www.senacor.com'
+    facebookUrl: 'https://www.senacor.com'
+    slackUrl: 'https://www.senacor.com'
+    redditUrl: 'https://www.senacor.com'
+    pressKitUrl: 'https://www.senacor.com'
     questionnaireUrl: ~
->>>>>>> eac2d1256e95f47b984e7802274d04119d9eec3c
   recyclePage:
     topProductImage: fruit_press.jpg
     bottomProductImage: apple_pressings.jpg
   welcomeBanner:
-    showOnFirstStart: true
+    showOnFirstStart: false
     title: 'Welcome to OWASP Juice Shop!'
     message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OWASP Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>OWASP Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Web Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
   cookieConsent:
@@ -167,9 +151,6 @@ products:
     image: undefined.jpg
     useForChristmasSpecialChallenge: true
   -
-<<<<<<< HEAD
-    name: 'Senacor Juice Shop-CTF Velcro Patch'
-=======
     name: 'Rippertuer Special Juice'
     description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
     price: 16.99
@@ -222,7 +203,6 @@ products:
     image: fan_hoodie.jpg
   -
     name: 'OWASP Juice Shop-CTF Velcro Patch'
->>>>>>> eac2d1256e95f47b984e7802274d04119d9eec3c
     description: '4x3.5" embroidered patch with velcro backside. The ultimate decal for every tactical bag or backpack!'
     price: 2.92
     quantity: 5
@@ -263,8 +243,6 @@ products:
     exifForBlueprintChallenge:
       - OpenSCAD
   -
-<<<<<<< HEAD
-=======
     name: 'Juice Shop Artwork'
     description: 'Unique masterpiece painted with different kinds of juice on 90g/m² lined paper.'
     price: 278.74
@@ -283,16 +261,10 @@ products:
     price: 3.99
     image: strawberry_juice.jpeg
   -
->>>>>>> eac2d1256e95f47b984e7802274d04119d9eec3c
     name: 'Carrot Juice (1000ml)'
     description: 'As the old German saying goes: "Carrots are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
     price: 2.99
     image: carrot_juice.jpeg
-<<<<<<< HEAD
-ctf:
-  countryMapping: ~
-  showFlagsInNotifications: true
-=======
     reviews:
       - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
   -
@@ -435,6 +407,5 @@ memories:
     geoStalkingVisualSecurityAnswer: 'ITsec'
 ctf:
   showFlagsInNotifications: false
->>>>>>> eac2d1256e95f47b984e7802274d04119d9eec3c
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
   countryMapping: ~
